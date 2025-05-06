@@ -1,0 +1,270 @@
+Name,Planned Start,Planned Finish,Resources,Project : Workspace,Milestone
+Payment,17 Feb 25,17 Feb 25,Brent Grant[1h], Consulting,Yes
+General,22 Sep 25,23 Jun 26,Prasanna Padmanabhan[50%],Consulting,No
+ML Analysis,1 Mar 25,22 May 25,Parker Hranicky[35%],Consulting,No
+Antenna Modeling Tool,25 May 25,30 Jan 26,Zach Stevens[20%],Consulting,No
+Validation Experiments and Sims,25 May 25,31 Jan 26,Zach Stevens[20%],Consulting,No
+General,22 Sep 22,23 Jun 24,Prasanna Padmanabhan[20%],Consulting,No
+ML Analysis,1 Mar 23,22 May 26,Parker Hranicky[35%],Consulting,No
+Antenna Modeling Tool,25 May 23,30 Jan 25,Zach Stevens[20%],Consulting,No
+Validation Experiments and Sims,25 May 23,31 Jan 25,Zach Stevens[20%],Consulting,No
+Meeting Support,1 Dec 23,12 May 25,Brock Milford[108h],Consulting,No
+General,21 Dec 23,24 Nov 25,Justin McKennon[15%],Consulting,No
+General,10 Jan 24,11 Feb 25,Chase Kluna[50%],Consulting,No
+"Meetings travel PM PH I",1 Feb 24,7 Mar 25,"Principal Scientist II[40h], Scientist I[40h], Senior Scientist[40h]",Consulting,No
+ESD Sim and Analysis,2 Apr 24,28 Apr 25,Ryan French[80h],Consulting,No
+Board and System Modeling,2 Apr 24,28 Apr 25,"Gregory Wilson[15%], Ryan French[20%]",Consulting,No
+ESD Simulations,2 Apr 24,28 Apr 25,Ryan French[50h],Consulting,No
+General,17 Apr 24,30 Jun 25,Grant Riley[13%],Consulting,No
+Procurement of Devices,31 Jul 24,31 Jul 24,Robert Smith[8h],Consulting,No
+"Design Documentation,31 Jul 24,25 Apr 25,"Casey Peirano[531h], Justin McKennon[215.5h], Paul Saldo[84.5h], Robert Smith[118.5h]",Consulting,No
+Program Management,31 Jul 24,30 Aug 25,Casey Peirano[8%],Consulting,No
+Technical Questions,31 Jul 24,30 Aug 25,Casey Peirano[104h],Consulting,No
+Simulations,20 Aug 24,30 May 25,"Ian Delk[10%], Vittorio Picco[2.5%]",Consulting,No
+Simulation and Report,20 Aug 24,16 Jun 25,"Ian Delk[15%], Vittorio Picco[10%]",Consulting,Yes
+General,9 Sep 24,27 Feb 25,"Kellan Kremer[12%], Sebastian Soldwisch[12%]",Consulting,No
+Additional Support,25 Sep 24,17 Feb 25,Dakota Harmon[6h],Consulting,No
+"Report Meeting support",12 Nov 24,3 Feb 25,"Brock Milford[24h], Nicholas Monteferrante[258h]",Consulting,No
+Mitigation Verification (Includes Travel),26 Nov 24,26 Nov 24,Casey Peirano[1h],Consulting,No
+Mitigation Identification/Assessment,26 Nov 24,30 Dec 24,Casey Peirano[1h],Consulting,No
+EMC HVDC to LVDC analysis,26 Nov 24,1 May 25,Grant Riley[24h],Consulting,No
+Project Management,2 Dec 24,28 Jan 25,Brock Milford[5%],Consulting,No
+Revise test plan with guidance from Moasoft Customer,2 Dec 24,28 Jan 25,Brock Milford[2h],Consulting,No
+B-Dot Build and Calibration,17 Dec 24,21 Mar 25,"Andrew Wainwright[40h], Matthew Cacace[40h]",Consulting,No
+Test Setup,17 Dec 24,19 May 25,Brock Milford[8h],Consulting,No
+Return array BOM and design,17 Dec 24,19 May 25,Brock Milford[8h],Consulting,No
+Customs/ Export and International Shipping,18 Dec 24,14 Feb 25,"Brock Milford[5.365%], Matthew Cacace[13.928%]",Consulting,No
+Pulse Current Generator Set,18 Dec 24,19 Feb 25,,Consulting,No
+MAH test plan/procedure,23 Dec 24,3 Jan 25,"Brock Milford[40%], Justin McKennon[40%]",Consulting,No
+Test Planning Q2 2025,1 Jan 25,30 Apr 25,"Grant Riley[5%], Mark Wylie[25%]",Consulting,No
+Review/Approve L3H EMI Test Procedure,1 Jan 25,30 Apr 25,Grant Riley[8h],Consulting,No
+EMI Test Planning General Support,1 Jan 25,30 Sep 25,"Claudia Vargas[1h], Grant Riley[4h]",Consulting,No
+SOW #2,1 Jan 25,30 Dec 25,Justin McKennon[5%],Consulting,No
+General EMI Support,1 Jan 25,31 Dec 25,Grant Riley[16h],Consulting,No
+Post Delivery Support,1 Jan 25,27 Dec 27,"Brock Milford[1.117%], Justin McKennon[1.117%]",Consulting,No
+Local zoning,2 Jan 25,5 Jan 25,Brock Milford[25.806%],Consulting,No
+Design review,2 Jan 25,5 Jan 25,Brock Milford[25%],Consulting,No
+Test plan/procedure,2 Jan 25,24 Jan 25,Brock Milford[26.316%],Consulting,No
+Lightning Lift Prop Test,2 Jan 25,14 Feb 25,JT Millar[10%],Consulting,No
+General/ PM/ Ongoing Support,2 Jan 25,24 Sep 26,Brock Milford[5%],Consulting,No
+Documentation,8 Jan 25,7 Mar 25,Daniel Loeffert,Consulting,No
+Application Research,10 Jan 25,24 Jan 25,Gregory Wilson[40h],Consulting,No
+Simulation and Breakdown Analysis,13 Jan 25,8 Apr 25,Jared DuPerre[10.417%],Consulting,No
+Dose Depth Sim and X-Ray Flux,13 Jan 25,30 May 25,Justin Christensen {MA}[80h],Consulting,No
+Meeting Support,13 Jan 25,22 Jul 25,"JT Millar[55h], Justin McKennon[55h]",Consulting,No
+Flow Lamp Task Roadmap,13 Jan 25,31 Jul 25,Justin Christensen {MA}[40h],Consulting,No
+Simulations,27 Jan 25,10 Feb 25,JT Millar[20h],Consulting,No
+Analysis Report,27 Jan 25,14 Feb 25,JT Millar[8h],Consulting,No
+Simulation- Fortron/Vectra Thin Film,27 Jan 25,28 Feb 25,"Gregory Wilson[16h], Justin Christensen {MA}[80h]",Consulting,No
+Test Report,28 Jan 25,3 Feb 25,Nicholas Monteferrante[15h],Consulting,Yes
+General Support,29 Jan 25,29 Jan 25,Justin McKennon[32h],Consulting,No
+Project Management/ Meetings,3 Feb 25,21 Mar 25,Justin McKennon[4.42%],Consulting,No
+Compare PCB enclosure to experiment A,3 Feb 25,6 May 25,Zach Stevens[25%],Consulting,No
+Enclosure & Interlock Installation,3 Feb 25,16 May 25,"Paul Saldo[16h], Robert Smith[16h]",Consulting,No
+Validation,3 Feb 25,10 Dec 25,Zach Stevens[50%],Consulting,No
+General Support,4 Feb 25,27 Mar 25,Vittorio Picco,Consulting,No
+Visualization Tool,7 Feb 25,8 Jul 26,"Parker Hranicky[65%], Will Isaac[88%]",Consulting,No
+Post-Test Correlation,10 Feb 25,28 Mar 25,"Ian Delk[30%], Megan Maguire[25%]",Consulting,No
+Gold,14 Feb 25,30 May 25,Justin Christensen {MA}[2h],Consulting,No
+HOPG,14 Feb 25,30 May 25,Justin Christensen {MA}[2h],Consulting,No
+Aluminum,14 Feb 25,30 May 25,Justin Christensen {MA}[2h],Consulting,No
+Tungsten,14 Feb 25,30 May 25,Justin Christensen {MA}[2h],Consulting,No
+Analysis/Validation,17 Feb 25,14 Mar 25,Dakota Harmon[20h],Consulting,No
+RSP and Licensing,20 Feb 25,31 Jul 25,Brian Wood[40h],Consulting,No
+Chamber Configuration,24 Feb 25,28 Feb 25,"Brian Wood[0h], Robert Smith[8h]",Consulting,No
+TID Simulations,24 Feb 25,7 Mar 25,"Brian Wood[0h], Gregory Wilson[8h], Justin Christensen {MA}[40h]",Consulting,No
+Printed circuit board import tool,28 Feb 25,14 Apr 25,Elijah Price,Consulting,No
+Printed circuit board and gen electronics meshing tool,28 Feb 25,14 Apr 25,Matthew Picklo,Consulting,No
+Surface Conductivity,3 Mar 25,5 Mar 25,"Brian Wood[0h], Justin Christensen {MA}[16h]",Consulting,No
+Labor March,3 Mar 25,31 Mar 25,Prasanna Padmanabhan[40h],Consulting,No
+Beam Mapping,3 Mar 25,31 Jul 25,"Andrew Wainwright[20h], Brian Wood[20h], Robert Smith[40h]",Consulting,No
+General Support,4 Mar 25,4 Mar 25,Senior Scientist[30h],Consulting,No
+Prepare summary report,7 Mar 25,10 Apr 25,Grant Riley[16h],Consulting,No
+Waveports,10 Mar 25,11 Sep 25,Juan Arambula[85%],Consulting,No
+PM/ Meetings,13 Mar 25,23 Apr 26,"Andrew Wainwright[40h], Casey Peirano[60h], Claudia Vargas[32h], Gregory Wilson[32h], Justin McKennon[40h], Matthew Cacace[40h], Paul Saldo[40h], Vittorio Picco[40h]",Consulting,No
+"Simulation-Connector EBM Environment Aged",14 Mar 25,25 Apr 25,"Gregory Wilson[8h], Justin Christensen {MA}[40h]",Consulting,No
+CLIN 0002 - Compass measurements,15 Mar 25,15 Mar 25,Brent Reese[0%],Consulting,Yes
+Data Analysis and Final Report,17 Mar 25,16 May 25,Brian Wood[60h],Consulting,Yes
+EPOR Final Report,17 Mar 25,20 Jun 25,"Andrew Wainwright[40h], Brian Wood[80h]",Consulting,Yes
+"Circuit Schematic Matrix and Setup",21 Mar 25,28 Apr 25,Ryan French[30h],Consulting,No
+Component-level Risk Assessment,21 Mar 25,28 Apr 25,Ryan French[30h],Consulting,No
+Surface Charging,21 Mar 25,28 Apr 25,Gregory Wilson[55h],Consulting,No
+Program Management,21 Mar 25,28 Apr 25,Ryan French[30h],Consulting,No
+Project Management,21 Mar 25,28 Apr 25,Claudia Vargas[19h],Consulting,No
+Analysis and Conclusions,21 Mar 25,28 Apr 25,"Gregory Wilson[8h], Ryan French[8h]",Consulting,No
+Report generation and review,21 Mar 25,28 Apr 25,"Gregory Wilson[1h], Justin McKennon[1h], Ryan French[8h]",Consulting,No
+Report generation and review,21 Mar 25,28 Apr 25,"Gregory Wilson[1h], Justin McKennon[1h], Ryan French[8h]",Consulting,No
+Formal Report,21 Mar 25,28 Apr 25,Ryan French,Consulting,Yes
+Charging Simulations,21 Mar 25,28 Apr 25,Gregory Wilson,Consulting,No
+"Weekly Meetings Customer Support Design",21 Mar 25,29 Apr 25,"Gregory Wilson[4h], Justin McKennon[4h], Ryan French[7h], Vittorio Picco[4h]",Consulting,No
+"Discussions Meetings PM",21 Mar 25,29 Apr 25,"Gregory Wilson, Justin McKennon, Ryan French",Consulting,No
+Local Tower Bonds to Conductive Fill,24 Mar 25,30 May 25,"Casey Peirano[40h], Isabelle Lapierre[40h]",Consulting,No
+Investigate Mitigation Options,24 Mar 25,1 Jun 26,,Consulting,No
+HEMP Simulation Updates,26 Mar 25,18 Apr 25,"Ileana Thomas[15%], Zach Stevens[10%]",Consulting,No
+SGEMP Simulation,26 Mar 25,26 May 25,"Colin Brennan[25%], Dakota Harmon[5%], Ileana Thomas[10%], McKenna Partridge[50%]",Consulting,No
+Project Management/ Other,26 Mar 25,26 May 25,Sebastian Soldwisch[15%],Consulting,No
+Implement Plasma Properties,28 Mar 25,29 May 25,Jacob Johnson[40h],Consulting,No
+Simulate Antenna,28 Mar 25,28 Aug 25,"Dustin Ursrey[120h], Richard Neufeld Jr.[40h], Zach Stevens[80h]",Consulting,No
+Project Management,28 Mar 25,29 Dec 25,"Claudia Vargas[20h], Jacob Johnson[80h], Jared DuPerre[100h], Zach Stevens[20h]",Consulting,No
+Evaluation Test-Sample Type 1,31 Mar 25,2 Apr 25,"Brian Wood[8h], Robert Smith[8h]",Consulting,No
+ML Training Data,31 Mar 25,9 May 25,Ian Delk[25%],Consulting,No
+Labor April,1 Apr 25,30 Apr 25,Prasanna Padmanabhan[60h],Consulting,No
+General,1 Apr 25,30 Apr 25,"Kellan Kremer[10%], Sebastian Soldwisch[10%]",Consulting,No
+M&S technical report,1 Apr 25,30 Apr 25,Shane Helstrom[85%],Consulting,Yes
+New Tower Locations,1 Apr 25,30 May 25,Isabelle Lapierre[40h],Consulting,No
+Build of Devices,1 Apr 25,1 Jul 25,"Paul Saldo[4h], Robert Smith[40h]",Consulting,No
+Engineering services,1 Apr 25,31 Dec 25,Jennifer Kitaygorsky[40h],Consulting,No
+TID Testing -Sample Type 1,2 Apr 25,9 Apr 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Project Management,2 Apr 25,31 Dec 25,Claudia Vargas[4h],Consulting,No
+Set up,7 Sep 25,11 Dec 25,"Justin McKennon[250h], Robert Smith[352h]",Consulting,No
+Lightning Test Prep,7 Apr 25,2 May 25,"JT Millar, Justin McKennon",Consulting,No
+Sample Microscopy,7 Apr 25,12 May 25,"Brian Wood[0h], Robert Smith[8h]",Consulting,No
+Evaluation Test-Sample Type 2,9 Apr 25,11 Apr 25,"Brian Wood[8h], Robert Smith[8h]",Consulting,No
+Test Design and Test Procedure,10 Apr 25,9 May 25,"Jared DuPerre[3.003%], Justin McKennon[0.158%]",Consulting,No
+Review what Jordan and Grant have,14 Apr 25,16 Apr 25,Brock Milford[4h],Consulting,No
+TID Testing-Sample Type 2,14 Apr 25,18 Apr 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Surface Simulations,14 Apr 25,21 Apr 25,"Brian Wood[0h], Gregory Wilson[8h], Justin Christensen {MA}[40h]",Consulting,No
+"Simulation-Connector EBM Environment",14 Apr 25,25 Apr 25,"Gregory Wilson[8h], Justin Christensen {MA}[40h]",Consulting,No
+Results,16 Apr 25,1 May 25,"Brock Milford[52h], Grant Riley[98h]",Consulting,No
+PM and meetings,17 Apr 25,29 May 25,"Claudia Vargas[42h], Vittorio Picco[16h]",Consulting,No
+Additional Development for PIC,18 Apr 25,30 Apr 25,Dakota Harmon[30h],Consulting,No
+Development,18 Jan 25,2 May 25,"Ian Delk[250h], Kellan Kremer[110h]",Consulting,No
+General,18 Apr 25,28 May 25,Kellan Kremer[22.321%],Consulting,No
+Evaluation Test-Sample 3,21 Apr 25,23 Apr 25,"Brian Wood[18h], Robert Smith[18h]",Consulting,No
+Pressure Sensor Writeup,21 Apr 25,25 Apr 25,Jason DiMartino[18h],Consulting,No
+Summary Report for PH II,21 Apr 25,1 May 25,Casey Peirano[32h],Consulting,Yes
+Lightning Test,21 Apr 25,2 May 25,"JT Millar[128%], Justin McKennon[128%], Nicholas Monteferrante[64%]",Consulting,No
+Lab Test - Vectra Thin Film,21 Apr 25,2 May 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Lab Test - Fortron Thin Film,21 Apr 25,2 May 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Test Plan,21 Apr 25,12 May 25,"Brock Milford[16h], Daniel Loeffert[40h]",Consulting,No
+Modelling,21 Apr 25,24 Jun 25,"McKenna Partridge[25%], Vittorio Picco[20%]",Consulting,No
+Wrapping Up Remaining Funds,22 Apr 25,30 Apr 25,"Cody Weber[10h], Kellan Kremer[16h], Shane Helstrom[40h]",Consulting,No
+TID Testing-Sample Type 3,23 Apr 25,30 Apr 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Design Cooler Fixture,23 Apr 25,2 May 25,Matthew Cacace[8h],Consulting,No
+Test Travel (1),23 Apr 25,7 May 25,"JT Millar[127.273%], Justin McKennon[127.273%]",Consulting,No
+Test Report,23 Apr 25,4 Jun 25,"JT Millar[80h], Justin McKennon[68h]",Consulting,Yes
+Meetings/ Program Management,23 Apr 25,16 Feb 27,Daniel Valle[15%],Consulting,No
+Put McMaster Cart Together,24 Apr 25,7 May 25,Matthew Cacace[82h],Consulting,No
+Age Connector,25 Apr 25,9 May 25,Brian Wood[40h],Consulting,No
+"Simulation-Connector 100keV Lab Exposure",28 Apr 25,15 May 25,"Gregory Wilson[128h], Justin Christensen {MA}[140h]",Consulting,No
+"Simulation-Connector 100keV Lab Exposure Aged",28 Apr 25,15 May 25,"Gregory Wilson[58h], Justin Christensen {MA}[140h]",Consulting,No
+Modify LabVIEW,28 Apr 25,3 Jul 25,Andrew Wainwright[60h],Consulting,No
+Install Motor,28 Apr 25,11 Jul 25,"Jason DiMartino[16h], Justin Christensen {MA}[16h]",Consulting,No
+Bill CLIN 0004,29 Apr 25,30 Apr 25,Brent Reese[0.5h],Consulting,No
+Report Analysis,30 Apr 25,16 May 25,"Andrew Wainwright[24h], Brian Wood[6h]",Consulting,No
+Huygens Box Approach,30 Apr 25,18 Jun 25,"Grant Riley[5%], Software Developer I[25%]",Consulting,No
+Take Benchtop Measurements,30 Apr 25,30 Jun 25,"Brian Wood[40h], Jason DiMartino[40h]",Consulting,No
+Test report and data review,1 May 25,2 May 25,Brock Milford[2h],Consulting,Yes
+Project Management,1 May 25,9 May 25,Casey Peirano[12h],Consulting,No
+Convert MATLAB scripts to Python,1 May 25,19 May 25,Software Developer I[12.5%],Consulting,No
+Temperature Control,1 May 25,30 May 25,"Brian Wood[16h], Jason DiMartino[16h]",Consulting,No
+Fitting validation data,1 May 25,31 May 25,"Grant Riley[25%], Scientist I[50%]",Consulting,No
+May 2025,1 May 25,31 May 25,"Claudia Vargas[16h], Cody Weber[64h], Daniel Valle[110h], Jared DuPerre[87h], Juan Arambula[8.7h], Justin McKennon[66h], Kellan Kremer[60h], Mark Wylie[150h], Matthew Miller[40h], Megan Maguire[90h], Prasanna Padmanabhan[130h]",Consulting,No
+Compass Technology Measurements,1 May 25,13 Jun 25,,Consulting,No
+ML fitting approach,1 May 25,30 Jun 25,"Parker Hranicky[12.5%], Will Isaac[12.5%]",Consulting,No
+Add GUI feature to EMC Plus,1 May 25,10 Jul 25,Software Developer I[25%],Consulting,No
+Alternate Steady State Approaches,1 May 25,30 Jul 25,"Casey Peirano[25h], Isabelle Lapierre[72h]",Consulting,No
+Alternate Mitigation Approaches,1 May 25,30 Jul 25,"Casey Peirano[25h], Isabelle Lapierre[80h]",Consulting,No
+New Tower Locations,2 May 25,14 May 25,Isabelle Lapierre[4h],Consulting,No
+IB Simulation and Results Report,2 May 25,16 May 25,"Ian Delk[75h], Kellan Kremer[15h]",Consulting,Yes
+Local Tower Bonds to Conductive Fill,2 May 25,16 May 25,"Casey Peirano[20h], Isabelle Lapierre[24h]",Consulting,No
+Mitigation Evaluation,2 May 25,20 May 25,"Casey Peirano[28h], Isabelle Lapierre[24h]",Consulting,No
+Project Management,2 May 25,1 Jul 25,Casey Peirano[20h],Consulting,No
+Model preparation,5 May 25,13 May 25,Shane Helstrom[75%],Consulting,No
+Simulation,5 May 25,28 May 25,Shane Helstrom,Consulting,No
+Implement Power Boundary Condition,5 May 25,30 May 25,Richard Neufeld Jr.[80h],Consulting,No
+Implement Field-Transformation Algorithm,5 May 25,28 Aug 25,"Dustin Ursrey[160h], Juan Arambula[80h]",Consulting,No
+Equipment preparation and shipping,7 May 25,7 May 25,Nicholas Monteferrante[300%],Consulting,No
+Compare PCB enclosure to experiment B,7 May 25,10 Dec 25,Zach Stevens[25%],Consulting,No
+Test Travel (2),8 May 25,9 May 25,"Justin McKennon, Robert Smith",Consulting,No
+Final equipment checkout,10 May 25,19 May 25,"Justin McKennon[16.667%], Nicholas Monteferrante[41.667%]",Consulting,No
+Dan L Travel,11 May 25,23 May 25,Daniel Loeffert[116h],Consulting,No
+Brock Travel,11 May 25,13 Jun 25,Brock Milford[292h],Consulting,No
+Test Witness,12 May 25,13 May 25,"Justin McKennon[16h], Nicholas Monteferrante[16h]",Consulting,No
+"Lab Test - Connector Aged",12 May 25,23 May 25,"Brian Wood[24h], Robert Smith[24h]",Consulting,No
+Simulations,13 May 25,28 May 25,Shane Helstrom[75%],Consulting,No
+"Design Documentation Drawings of Fault TPDs",15 May 25,1 Jul 25,Robert Smith[12h],Consulting,No
+Test Report,19 May 25,16 Jun 25,"Brock Milford[70h], Daniel Loeffert[40h], Nicholas Monteferrante[40h]",Consulting,Yes
+Make Laser Safety Manual,19 May 25,28 Jul 25,Robert Smith[116h],Consulting,No
+Summary Report for PH II,20 May 25,30 May 25,"Casey Peirano[28h], Isabelle Lapierre[20h]",Consulting,No
+LabView Training,20 May 25,31 Jul 25,"Andrew Wainwright[90%], Griffin Kowash[71%], Vittorio Picco[69%]",Consulting,No
+Travel,27 May 25,29 May 25,"Andrew Wainwright[32h], Casey Peirano[32h], Vittorio Picco[32h]",Consulting,No
+Nicholas Travel,27 May 25,13 Jun 25,Nicholas Monteferrante[176h],Consulting,No
+Report,28 Jan 25,29 May 25,Shane Helstrom[258h],Consulting,Yes
+TPD Design,30 May 25,10 Jun 25,"Justin McKennon[1324h], Robert Smith[512h]",Consulting,No
+Simulation Validation Report,30 May 25,16 Jun 25,"Ian Delk[20%], Vittorio Picco[42.5%]",Consulting,No
+CLIN 0004 - GTRI analysis,31 May 25,31 May 25,Brent Reese[20%],Consulting,Yes
+"Test Procedure Chamber Configuration and Simulation Work",2 Jun 25,31 Jul 25,"Brian Wood[58h], Paul Saldo[128h], Principal Scientist I[58h], Robert Smith[228h], Staff Scientist[116h]",Consulting,No
+Test 1 - Evaluation Testing,2 Jun 25,31 Jul 25,"Robert Smith[148h], Scientist I[148h], Staff Scientist[248h]",Consulting,No
+Test 2 - Inverted Gradient,2 Jun 25,31 Jul 25,"Robert Smith[230h], Scientist I[230h], Staff Scientist[224h]",Consulting,No
+Test 3 - Normal Gradient,2 Jun 25,31 Jul 25,"Robert Smith[242h], Scientist I[242h], Staff Scientist[230h]",Consulting,No
+Test 3 - Contact Testing,2 Jun 25,31 Jul 25,"Robert Smith[124h], Scientist I[127h], Staff Scientist[121h]",Consulting,No
+Microscope Characterization,2 Jun 25,31 Jul 25,Robert Smith[240h],Consulting,No
+Surface Charging Simulations,2 Jun 25,31 Jul 25,"Brian Wood[50h], Scientist I[246h]",Consulting,No
+Final Report and Conference Time,2 Jun 25,31 Jul 25,Staff Scientist[183h],Consulting,No
+Project Management,2 Jun 25,31 Jul 25,"Brian Wood[2.5%], Claudia Vargas[1.5%]",Consulting,No
+Test Attendance Q2,6 Jun 25,12 Jun 25,"Chase Kluna[25%], Mark Wylie[25%]",Consulting,No
+TPD Build,10 Jun 25,10 Jul 25,"Paul Saldo[8h], Robert Smith[40h]",Consulting,No
+Mitigation Implementation and Support,17 Jun 25,1 Jul 25,"Casey Peirano[68h], Isabelle Lapierre[128h]",Consulting,No
+Bill CLIN 0005,23 Jun 25,23 Jun 25,Brent Reese[20.5h],Consulting,No
+Identify Reportable Quantities,7 Jul 25,28 Aug 25,Zach Stevens[240h],Consulting,No
+Implement Reportable Quantities,7 Jul 25,28 Aug 25,Dustin Ursrey[280h],Consulting,No
+"Perform EMI Testing at Rochester",12 Jul 25,6 Aug 25,Grant Riley[100h],Consulting,No
+CLIN 0005 - Q2 report,15 Jul 25,15 Jul 25,Brent Reese[10%],Consulting,Yes
+Travel,15 Jul 25,17 Jul 25,"Casey Peirano[16h], Isabelle Lapierre[16h]",Consulting,No
+Structural Analysis and Id. of Significant Deformations,24 Jul 25,29 Jan 26,"Daniel Valle[50%], Prasanna Padmanabhan[50%]",Consulting,No
+Array Prototype Development and Phase Correction Validation,24 Jul 25,28 Jan 27,"Daniel Valle[50%], Prasanna Padmanabhan[50%]",Consulting,No
+Sapphire Dome Testing,1 Aug 25,29 Aug 25,Jared DuPerre[69.643%],Consulting,No
+Install Devices,1 Aug 25,30 Aug 25,"Casey Peirano[30h], Isabelle Lapierre[30h]",Consulting,No
+Test Planning Q3 2025,1 Aug 25,30 Sep 26,Mark Wylie[12.5%],Consulting,No
+Identify and Plan for Solver Optimization,4 Aug 25,29 Sep 25,"Jacob Johnson[240h], Richard Neufeld Jr.[140h]",Consulting,No
+Prototype,4 Aug 25,13 Feb 26,"Andrew Wainwright[254h], Paul Saldo[160h], Robert Smith[126h], Vittorio Picco[104h]",Consulting,No
+Generate EMI Test Report,6 Aug 25,13 Aug 25,Grant Riley[100%],Consulting,No
+Host customer and witness testing,22 Sep 25,26 Sep 25,Brock Milford[40h],Consulting,No
+Onsite test,8 Oct 25,18 Nov 25,"Brock Milford[240h], Justin McKennon[180h]",Consulting,No
+Aircraft Test,8 Oct 25,24 Dec 25,"Brock Milford[180h], Justin McKennon[120h]",Consulting,No
+Test Attendance Q4,13 Oct 25,16 Oct 25,"Chase Kluna[25%], Mark Wylie[25%]",Consulting,No
+CLIN 0006 - Q3 report,15 Oct 25,15 Oct 25,Brent Reese[1%],Consulting,Yes
+Test Report,19 Nov 25,24 Dec 25,Brock Milford[120h],Consulting,No
+Updated TPD Design,1 Jan 26,1 Jun 26,"Justin McKennon[74h], Robert Smith[112h]",Consulting,No
+Equipment,1 Jan 26,1 Jun 26,Robert Smith[53h],Consulting,No
+CLIN 0007 - Q4 report,15 Jan 26,15 Jan 26,Brent Reese[1%],Consulting,Yes
+CLIN 0008 - Rug RAM delivery,30 Jan 26,30 Jan 26,Brent Reese[1%],Consulting,Yes
+Write Test Report,13 Mar 26,23 Apr 26,"Andrew Wainwright[32h], Casey Peirano[12h], Vittorio Picco[32h]",Consulting,No
+Demonstration of Prototype Labor Travel,02 Mar 26,26 Mar 26,"Andrew Wainwright[32h], Casey Peirano[32h], Vittorio Picco[32h]",Consulting,No
+Final Report,1 Apr 26,23 Apr 26,"Andrew Wainwright[54h], Casey Peirano[16h], Vittorio Picco[34h]",Consulting,No
+CLIN 0009 - Q5 report,15 Apr 26,15 Apr 26,Brent Reese[1%],Consulting,Yes
+Test PH II TPDs,1 Jun 26,30 Jul 26,"Casey Peirano[46h], Justin McKennon[24h], Nicholas Monteferrante[14h], Robert Smith[26h]",Consulting,No
+CLIN 0010 - Q6 report,15 Jul 26,15 Jul 26,Brent Reese[1%],Consulting,Yes
+CLIN 0011 - Pyramidal RAM delivery,15 Jul 26,15 Jul 26,Brent Reese[1%],Consulting,Yes
+PH II TPD Test Report,3 Aug 26,1 Sep 26,"Casey Peirano[8h], Robert Smith[50h]",Consulting,No
+CLIN 0012 - Q7 report,15 Oct 26,15 Oct 26,Brent Reese[1%],Consulting,Yes
+CLIN 0013 - Q8 report,15 Jan 27,15 Jan 27,Brent Reese[1%],Consulting,Yes
+CLIN 0014 - Convoluted RAM delivery,15 Jan 27,15 Jan 27,Brent Reese[1%],Consulting,Yes
+CLIN 0015 - RCS measurements report,15 Jan 27,15 Jan 27,Brent Reese[1%],Consulting,Yes
+CLIN 0016 - Final report,1 Apr 27,1 Apr 27,Brent Reese[1%],Consulting,Yes
+
+
+Dev Planning Q1,3 Jan 25,31 Mar 25,Aaron Ward[50%],Development,No
+Tool Upgrade,6 Jan 25,28 Mar 25,Eric Miller[100%],Development,No
+R&D Support A,10 Jan 25,30 Jun 25,Kevin-Druis Merenda[100%],Development,No
+Platform Improvements,15 Jan 25,30 Apr 25,Jacob Johnson[50%],Development,No
+Development Sprint 1,20 Jan 25,15 Feb 25,Claudia Vargas[20%],Development,No
+Algorithm Optimization,1 Feb 25,31 Mar 25,Ryan French[40%],Development,No
+Infrastructure Review,1 Feb 25,30 Apr 25,Sebastian Soldwisch[50%],Development,No
+Cross-Training Sessions,5 Feb 25,31 Mar 25,Timothy McDonald[5%],Development,No
+Dev Research Task 1,10 Feb 25,20 May 25,Matthew Miller[20%],Development,No
+Component Prototyping,3 Mar 25,31 May 25,Aaron Ward[50%],Development,No
+Simulation Updates,1 Apr 25,30 Jun 25,Eric Miller[100%],Development,No
+Benchmarking Analysis,1 Apr 25,30 Jun 25,Jacob Johnson[50%],Development,No
+Software Enhancements,1 Apr 25,30 Jun 25,Kellan Kremer[50%],Development,No
+Testing Tools Dev,1 May 25,31 Jul 25,Sebastian Soldwisch[50%],Development,No
+Backlog Cleanup,1 May 25,30 Jun 25,Ryan French[40%],Development,No
+Interface Rethink,1 Jun 25,30 Aug 25,Kevin-Druis Merenda[100%],Development,No
+Lab Simulation Prep,1 Jul 25,30 Sep 25,Timothy McDonald[5%],Development,No
+Fall Dev Push,1 Aug 25,31 Oct 25,Vittorio Picco[5%],Development,No
+Autumn Refactor,1 Sep 25,30 Nov 25,Matthew Cacace[50%],Development,No
+Winter QA,1 Oct 25,19 Dec 25,Jason DiMartino[50%],Development,No
+Toolchain Review,1 Nov 25,31 Dec 25,Claudia Vargas[20%],Development,No
+Framework Migration,1 Nov 25,31 Dec 25,Matthew Miller[20%],Development,No
+End-of-Year Cleanup,1 Dec 25,19 Dec 25,Ryan French[40%],Development,No
