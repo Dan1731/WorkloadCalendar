@@ -9,13 +9,11 @@
 #include <ctime>
 #include <set>
 
-// Global role map reference if needed across multiple functions
+/// <summary>
+/// Helpers
+/// </summary>
 std::map<std::string, std::string> roleMap;
-
-// Employee role helper
 std::map<std::string, std::string> loadRoleMap(const std::string& filename);
-
-// Labor availability helper
 std::map<std::string, double> loadLaborGoals(const std::string& filename);
 
 // Case sensitive helper
@@ -30,6 +28,9 @@ double getUtilization(MonthNode* m) {
     return ((m -> consultingEffort + m -> devEffort) / m -> availableHours) * 100.0; // calc utilization
 }
 
+/// <summary>
+/// Skip list implementation 
+/// </summary>
 void printFilteredUtilization(MonthNode* calendar, const std::string& filterType, const std::string& filterValue) {
     MonthNode* ptr = calendar;
     std::cout << "\nMonth   | Filtered Utilization (%)\n";
@@ -61,7 +62,6 @@ void printFilteredUtilization(MonthNode* calendar, const std::string& filterType
 /// <summary> 
 /// Span effort equally across months
 /// </summary>
-// Parse Celoxis date string 
 std::tm parseDate(const std::string& dateStr) {
     std::tm tm = {};
     std::istringstream ss(dateStr);
@@ -89,12 +89,6 @@ std::tm parseDate(const std::string& dateStr) {
             break;
         }
     }
-
-    if (tm.tm_mon == -1) {
-        std::cerr << "Error: Unrecognized month in date string: " << dateStr << "\n";
-        throw std::invalid_argument("Invalid month name");
-    }
-
     return tm;
 }
 
