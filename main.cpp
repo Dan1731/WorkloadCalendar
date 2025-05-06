@@ -3,8 +3,7 @@
 #include <map>
 #include "WorkUtilizationCalendar.h"
 
-// You should have implemented this somewhere (or replace with manual CSV reading)
-std::vector<CeloxisTask> readCSV(const std::string& filename);  // forward declare if needed
+std::vector<CeloxisTask> readCSV(const std::string& filename);  
 
 int main() {
     std::vector<CeloxisTask> tasks = readCSV("mock_tasks.csv");
@@ -18,7 +17,7 @@ int main() {
 
     MonthNode* calendar = createYearSkipList(year);
     for (const auto& task : tasks) {
-        taskEffortMonths(calendar, task);  // This uses the global roleMap
+        taskEffortMonths(calendar, task);  // Global roleMap
     }
 
     runCalendarCLI(year, calendar, roleMap, directLaborGoals);

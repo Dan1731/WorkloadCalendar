@@ -12,7 +12,9 @@ int runCalendarCLI(int year, MonthNode* calendar, const std::map<std::string, st
 
 enum Priority { LOW, MED, HIGH}; // Priority labels for tasks
 
-// Parsing Celoxis CSV
+/// <summary>
+/// Parsing Resources
+/// </summary>
 struct CeloxisTask {
     std::string name;
     std::string start;
@@ -22,15 +24,18 @@ struct CeloxisTask {
     std::string milestone;
 };
 
-// Parsing Resources
+/// <summary>
+/// Parsing Resources
+/// </summary>
 struct ResourceSplit {
     std::string name;
     double effort;
     std::string unit;
 };
 
-
-//push_back contructor
+/// <summary>
+/// push_back contructor
+/// </summary>
 struct Task {
     std::string name;
     std::string jobRole;
@@ -41,7 +46,6 @@ struct Task {
         : name(n), jobRole(role), workspace(ws), hours(h) {}
 };
 
- 
 
 struct MonthNode {
     std::string monthName;
@@ -51,25 +55,30 @@ struct MonthNode {
 
     std::vector<Task> consultingTasks;
     std::vector<Task> devTasks;
-    std::vector<Task> deferredTasks; // If utilization exceeds 1
+    std::vector<Task> deferredTasks; 
 
- 
-
-    // Indicators for critical events
+    /// <summary>
+    /// Indicators for critical events
+    /// </summary>
 
     int milestoneCount = 0;
     bool isReleaseMonth = false;
 
  
 
-    // data struc pointers
+    /// <summary>
+    /// data struc pointers
+    /// </summary>
 
     MonthNode* next = NULL;
     MonthNode* down = NULL;
 
 };
 
-// Filter declarations
+
+/// <summary>
+/// Filter declarations
+/// </summary>
 void printFilteredUtilization(MonthNode* calendar, const std::string& filterType, const std::string& filterValue);
 
 MonthNode* createYearSkipList(int year);
@@ -86,7 +95,7 @@ void taskEffortMonths(MonthNode* calendar, const CeloxisTask & task);
 int runCalendarCLI(int year, MonthNode* calendar,
     const std::map<std::string, std::string>& roleMap,
     const std::map<std::string, double>& directLaborGoals);
-    
+
 void filterAndPrintCalendar(MonthNode* calendar, const std::string& workspace, const std::string& role, int year, const std::map<std::string, std::string>& roleMap);
 
 #endif

@@ -9,13 +9,11 @@
 #include <ctime>
 #include <set>
 
-// Global role map reference if needed across multiple functions
+/// <summary>
+/// Helpers
+/// </summary>
 std::map<std::string, std::string> roleMap;
-
-// Employee role helper
 std::map<std::string, std::string> loadRoleMap(const std::string& filename);
-
-// Labor availability helper
 std::map<std::string, double> loadLaborGoals(const std::string& filename);
 
 // Case sensitive helper
@@ -30,6 +28,9 @@ double getUtilization(MonthNode* m) {
     return ((m -> consultingEffort + m -> devEffort) / m -> availableHours) * 100.0; // calc utilization
 }
 
+/// <summary>
+/// Skip list implementation 
+/// </summary>
 void printFilteredUtilization(MonthNode* calendar, const std::string& filterType, const std::string& filterValue) {
     MonthNode* ptr = calendar;
     std::cout << "\nMonth   | Filtered Utilization (%)\n";
@@ -61,14 +62,13 @@ void printFilteredUtilization(MonthNode* calendar, const std::string& filterType
 /// <summary> 
 /// Span effort equally across months
 /// </summary>
-// Parse Celoxis date string 
 std::tm parseDate(const std::string& dateStr) {
     std::tm tm = {};
     std::istringstream ss(dateStr);
     std::string day, month, year;
 
     if (!(ss >> day >> month >> year)) {
-        std::cerr << "Error: Failed to parse date string: " << dateStr << "\n";
+
         throw std::invalid_argument("Invalid date format");
     }
 
@@ -89,12 +89,6 @@ std::tm parseDate(const std::string& dateStr) {
             break;
         }
     }
-
-    if (tm.tm_mon == -1) {
-        std::cerr << "Error: Unrecognized month in date string: " << dateStr << "\n";
-        throw std::invalid_argument("Invalid month name");
-    }
-
     return tm;
 }
 
@@ -107,7 +101,9 @@ int countMonthSpan(const std::tm& start, const std::tm& end) {
     return (end.tm_year - start.tm_year) * 12 + (end.tm_mon - start.tm_mon) + 1;
 }
 
-    // Split string and distribute effort
+/// <summary>
+/// Split string and distribute effort
+/// </summary>
     void taskEffortMonths(MonthNode* calendar, const CeloxisTask& task) {
         std::tm start = parseDate(task.start);
         std::tm end = parseDate(task.finish);
@@ -166,12 +162,14 @@ MonthNode* createYearSkipList(int year) {
     for (const auto& name : monthName) {
         MonthNode* node = new MonthNode();
         node->monthName = name;
-        node->availableHours = 0; // placeholder, will calculate next
+        node->availableHours = 0;
 
-        // Use actual business days for the given year/month
+        /// <summary>
+        /// Use business days
+        /// </summary>
         std::tm t = {};
         t.tm_year = year - 1900;
-        t.tm_mon = &name - monthName; // get index from name
+        t.tm_mon = &name - monthName;
         t.tm_mday = 1;
 
         int businessDays = 0;
@@ -200,7 +198,9 @@ std::vector<ResourceSplit> splitResources(const std::string& raw) {
     std::vector<ResourceSplit> result;
     std::string trimmed = raw;
 
-    // Remove surrounding quotes
+    /// <summary>
+    /// Remove quotes error
+    /// </summary>
     if (!trimmed.empty() && trimmed.front() == '"' && trimmed.back() == '"') {
         trimmed = trimmed.substr(1, trimmed.size() - 2);
     }
@@ -245,7 +245,9 @@ void filterAndPrintCalendar(MonthNode* calendar,const std::string& workspace,con
         std::set<std::string> people;
         double total = 0.0;
 
-        // Combine tasks based on workspace filter
+        /// <summary>
+        /// Combine tasks based on workspace filter
+        /// </summary>
         std::vector<Task> relevantTasks;
         if (toLower(workspace) == "development") {
         relevantTasks = ptr->devTasks;
@@ -256,7 +258,9 @@ void filterAndPrintCalendar(MonthNode* calendar,const std::string& workspace,con
         relevantTasks.insert(relevantTasks.end(), ptr->devTasks.begin(), ptr->devTasks.end());
         }
 
-        // Accumulate hours if role matches
+        /// <summary>
+        /// Add hours if roles match
+        /// </summary>
         for (const Task& task : relevantTasks) {
             bool matches = true;
             if (toLower(role) != "all") {
@@ -272,10 +276,12 @@ void filterAndPrintCalendar(MonthNode* calendar,const std::string& workspace,con
         }
     }
 
-    // Calculate available hours based on labor goal for each person
+    /// <summary>
+    /// Calculate available hours based on labor goal for each person
+    /// </summary>
     double adjustedAvailableHours = 0.0;
     for (const auto& person : people) {
-        double goal = 1.0; // default to 100%
+        double goal = 1.0; 
         auto it = directLaborGoals.find(person);
         if (it != directLaborGoals.end()) {
             goal = it->second / 100.0;
@@ -298,7 +304,9 @@ void filterAndPrintCalendar(MonthNode* calendar,const std::string& workspace,con
     }
 }
 
-
+    /// <summary>
+    /// User input for calendar
+    /// </summary>
 int runCalendarCLI(int year, MonthNode* calendar,
     const std::map<std::string, std::string>& roleMap,
     const std::map<std::string, double>& directLaborGoals) {
@@ -341,6 +349,10 @@ std::map<std::string, std::string> loadRoleMap(const std::string& filename) {
     return roleMap;
 }
 
+
+    /// <summary>
+    /// Assumes availability based on labor goals
+    /// </summary>
 std::map<std::string, double> loadLaborGoals(const std::string& filename) {
     std::map<std::string, double> goals;
     std::ifstream file(filename);
@@ -352,12 +364,12 @@ std::map<std::string, double> loadLaborGoals(const std::string& filename) {
         std::string name, role, commercialGoal, devGoal;
         std::getline(ss, name, ',');
         std::getline(ss, role, ',');
-        std::getline(ss, commercialGoal, ','); // assuming this is the % to use
+        std::getline(ss, commercialGoal, ','); 
 
         name.erase(0, name.find_first_not_of(" \t\r\n"));
         name.erase(name.find_last_not_of(" \t\r\n") + 1);
 
-        double goal = 1.0; // default to 100%
+        double goal = 1.0; 
         try {
             goal = std::stod(commercialGoal);
         } catch (...) {}
